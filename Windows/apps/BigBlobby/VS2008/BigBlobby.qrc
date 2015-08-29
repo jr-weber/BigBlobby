@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QResources/images/BigBlobbyIcon-200x200.png</file>
+        <file>QResources/images/BigBlobbyIcon-32x32.png</file>
+        <file>QResources/images/BigBlobbyIcon-100x100.png</file>
+        <file>QResources/images/help/BackgroundHelpImage-320x240.png</file>
+        <file>QResources/images/help/Highpass1HelpImage-320x240.png</file>
+        <file>QResources/images/help/Highpass2HelpImage-320x240.png</file>
+        <file>QResources/images/help/SmoothingHelpImage-320x240.png</file>
+        <file>QResources/images/help/ThresholdHelpImage-320x240.png</file>
+        <file>QResources/images/help/SourceHelpImage-320x240.png</file>
+        <file>QResources/images/help/PreBkSmoothingHelpImage-320x240.png</file>
+        <file>QResources/images/arrows/DownArrow-72x72.png</file>
+        <file>QResources/images/arrows/LeftArrow-72x72.png</file>
+        <file>QResources/images/arrows/RightArrow-72x72.png</file>
+        <file>QResources/images/arrows/UpArrow-72x72.png</file>
+    </qresource>
+</RCC>

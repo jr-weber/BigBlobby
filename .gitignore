@@ -1,0 +1,15 @@
+Windows/apps/BigBlobby/VS2008/bin/BigBlobby.exe
+Windows/apps/BigBlobby/VS2008/bin/QtCore4.dll
+Windows/apps/BigBlobby/VS2008/bin/QtGui4.dll
+Windows/apps/BigBlobby/VS2008/bin/QtNetwork4.dll
+Windows/apps/BigBlobby/VS2008/bin/QtOpenGL4.dll
+Windows/apps/BigBlobby/VS2008/bin/QtTest4.dll
+Windows/apps/BigBlobby/VS2008/bin/QtXml4.dll
+Windows/apps/BigBlobby/VS2008/obj/GeneratedFiles/*
+Windows/apps/BigBlobby/VS2008/obj/Release/*
+Windows/apps/BigBlobby/VS2008/obj/Debug/*
+*.avi
+*.obj
+moc_*.cpp
+*.ncb
+*.suo

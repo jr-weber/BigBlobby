@@ -1,0 +1,82 @@
+<BlobDetectorParams>
+
+    <Camera>
+        <deviceID> 0 </deviceID>
+        <videoRate> 60 </videoRate>
+        <videoWidth> 320 </videoWidth>
+        <videoHeight> 240 </videoHeight>
+        <flipImageVertically> false </flipImageVertically>
+        <flipImageHorizontally> true </flipImageHorizontally>
+    </Camera>
+
+    <Blobs>
+        <imageThreshold> 50 </imageThreshold>
+        <minBlobSize> 25 </minBlobSize>
+        <maxBlobSize> 350 </maxBlobSize>
+        <maxNumberBlobs> 104 </maxNumberBlobs>
+        <useDarkBlobs> false </useDarkBlobs>
+        <showCalibrationGrid> true </showCalibrationGrid>
+        <showAreas> true </showAreas>
+        <showOutlines> false </showOutlines>
+        <showCrosshairs> false </showCrosshairs>
+        <showBoundingBoxes> true </showBoundingBoxes>
+        <normalizeBlobIntensities> true </normalizeBlobIntensities>
+        <showLabels> true </showLabels>
+    </Blobs>
+
+    <Background>
+        <useAutoBackground> false </useAutoBackground>
+        <backgroundLearnRate> 50 </backgroundLearnRate>
+        <usePeriodicBackground> true </usePeriodicBackground>
+        <periodicBackgroundSeconds> 2 </periodicBackgroundSeconds>
+        <periodicBackgroundPercent> 1 </periodicBackgroundPercent>
+    </Background>
+
+    <Filters>
+        <hideGaussianControls> true </hideGaussianControls>
+        <hideEarlySmoothing> true </hideEarlySmoothing>
+        <usePreBackgroundSmoothing> true </usePreBackgroundSmoothing>
+        <preBackgroundSmoothingBlur> 1 </preBackgroundSmoothingBlur>
+        <useGaussianPreBackgroundSmoothing> true </useGaussianPreBackgroundSmoothing>
+        <gaussianPreBackgroundSigma> 2 </gaussianPreBackgroundSigma>
+        <useMask> false </useMask>
+        <maskWidthPadding> 5 </maskWidthPadding>
+        <maskHeightPadding> 5 </maskHeightPadding>
+        <useHighpass> true </useHighpass>
+        <highpassBlur> 8 </highpassBlur>
+        <useHighpassAmplify> true </useHighpassAmplify>
+        <highpassAmplify> 60 </highpassAmplify>
+        <useHighpass2> true </useHighpass2>
+        <highpassBlur2> 8 </highpassBlur2>
+        <useHighpassTwoAmplify> true </useHighpassTwoAmplify>
+        <highpassTwoAmplify> 10 </highpassTwoAmplify>
+        <useSmoothing> true </useSmoothing>
+        <smoothingBlur> 4 </smoothingBlur>
+        <useGaussianSmoothing> true </useGaussianSmoothing>
+        <gaussianSigma> 2 </gaussianSigma>
+        <useSmoothingAmplify> true </useSmoothingAmplify>
+        <smoothingAmplify> 10 </smoothingAmplify>
+    </Filters>
+
+    <Network>
+        <showNetworkMenu> true </showNetworkMenu>
+        <useNetworkSilentMode> false </useNetworkSilentMode>
+        <useTuioUdpChannelOne> true </useTuioUdpChannelOne>
+        <useTuioUdpChannelTwo> true </useTuioUdpChannelTwo>
+        <useFlashXmlChannel> true </useFlashXmlChannel>
+        <useBinaryTcpChannel> false </useBinaryTcpChannel>
+        <localHost> 127.0.0.1 </localHost>
+        <tuioUdpChannelOnePort> 3333 </tuioUdpChannelOnePort>
+        <tuioUdpChannelTwoPort> 3334 </tuioUdpChannelTwoPort>
+        <tuioUdpProtocol> /tuio/2Dcur:/tuio/2Dblb </tuioUdpProtocol>
+        <flashXmlChannelPort> 3000 </flashXmlChannelPort>
+        <flashXmlProtocol> /tuio/2Dcur:/tuio/2Dblb </flashXmlProtocol>
+        <binaryTcpChannelPort> 3001 </binaryTcpChannelPort>
+        <simpleMessageServerPort> 3002 </simpleMessageServerPort>
+    </Network>
+
+    <Experimental>
+        <showExperimentalMenu> false </showExperimentalMenu>
+    </Experimental>
+
+</BlobDetectorParams>

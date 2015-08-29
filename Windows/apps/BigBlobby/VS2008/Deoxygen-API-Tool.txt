@@ -1,0 +1,16 @@
+To see the BigBlobby 0.7 API, double-click on the docs/html/index.html file to 
+open the API in a web browser.
+
+The BigBlobby API was generated using the Doxygen tool, which is available 
+free at http://www.stack.nl/~dimitri/doxygen/.  Prebuilt binaries are available 
+for Windows, and the doxywizard graphical front-end is fairly easy to learn.
+
+I happen to prefer using JavaDoc like syntax for the comments to be extracted,
+so my comments are wrapped in a banner like the following:
+
+/***************************************************************************//**
+Comments written here will be extracted if this banner is right before a
+public function, class declaration, or namespace declaration.  See 
+http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html for more info 
+on how to write comments that will be extracted with Doxygen.
+*******************************************************************************/
